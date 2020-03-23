@@ -1,0 +1,9 @@
+HDF:
+  nodes:
+    - /df1
+    - /sub/df2
+    - /sub/df3
+
+Database:
+  sqlalchemy_connection_string: 'mssql+pyodbc://localhost\SQLEXPRESS/Northwind?driver=ODBC+Driver+13+for+SQL+Server;Integrated Security=True'
+  schema: dbo
